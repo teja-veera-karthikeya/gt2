@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Guess The Word</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="gamepage.css">
+</head>
+
+<body>
+	<img src="b2-removebg-preview.png" style="height:110px;">
+	<div id="sb">
+		<h4 id="player_1_name"></h4><span id="player_1_score"></span>
+		<br>
+		<br>
+		<br>
+		<h4 id="player_2_name" style="margin-top:50px;"></h4><span id="player_2_score"></span>
+	</div>
+	<div class="q">
+		<h3 id="question_turn">Question turn :</h3>
+		<h3 id="answer_turn">Answer turn :</h3>
+	</div>
+	<center>
+		<h2 style="color: white;">Guess The Word!</h2>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	</center>
+	<div class="container">
+
+		<center>
+			<br>
+			<br>
+			<div id="output" class="col-lg-6"></div>
+			<br>
+			<br>
+			<label>Number1 :</label>
+			<input type="number" class="form-control" id="Number1" placeholder="Number1">
+			<br>
+			<br>
+			<label>Number2 :</label>
+			<input type="number" class="form-control" id="Number2" placeholder="Number2">
+
+
+		</center>
+		
+	<button class="btn btn-info" id="margin"style="width: 30%;" onclick="send()">Send</button>
+	</div>
+    <script src="game.js"></script>
+</body>
+
+</html>

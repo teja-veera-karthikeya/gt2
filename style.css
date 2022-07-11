@@ -1,0 +1,45 @@
+body {
+	background-image: url(11.png);
+	background-position: center;
+	background-size: cover;
+	color: white;
+
+}
+
+
+.login_div1 {
+	background: rgba(1, 129, 108, 0.561);
+	padding: 10px;
+	float: right;
+	width: 40%;
+	height: 50%;
+	margin-top: 15%;
+	border-radius: 15px;
+}
+
+h3 {
+	font-size: 35px;
+}
+
+#player1_name,
+#player2_name {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#word {
+	width: 60%;
+}
+
+#word_display {
+	letter-spacing: 5px;
+}
+
+#output {
+	background: white;
+	border-radius: 10px;
+	border-top: 10px solid #AA4465;
+	padding: 10px;
+	float: none;
+	text-align: left;
+}
